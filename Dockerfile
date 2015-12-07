@@ -9,7 +9,7 @@
 # Author: Steven E. Pav
 # Comments: Steven E. Pav
 
-FROM phadej/ghc:7.10.2
+FROM haskell:7.10.2
 MAINTAINER Steven E. Pav, shabbychef@gmail.com
 
 RUN (cabal update ; \
